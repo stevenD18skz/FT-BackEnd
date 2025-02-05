@@ -1,24 +1,6 @@
 // src/controllers/financeController.js
-import { transactions, planningGoals } from "../models/mockData.mjs";
-import Transaction from "../models/Transaction.mjs";
+import { planningGoals } from "../models/mockData.mjs";
 import PlanningGoal from "../models/PlanningGoal.mjs";
-
-export const getTransactions = (req, res) => {
-  res.json(transactions);
-};
-
-export const addTransaction = (req, res) => {
-  const { description, amount, date } = req.body;
-  const newTransaction = new Transaction(
-    transactions.length + 1,
-    description,
-    amount,
-    date
-  );
-
-  transactions.push(newTransaction);
-  res.status(201).json(newTransaction);
-};
 
 export const getPlanningGoals = (req, res) => {
   res.json(planningGoals);

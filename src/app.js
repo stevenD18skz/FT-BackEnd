@@ -1,8 +1,8 @@
 // src/app.js
 import express, { json } from "express"; // require -> commonJS
 import { corsMiddleware } from "./middlewares/cors.js";
-import cors from "cors";
-import router from "./routes/financeRoutes.mjs";
+
+import router from "./routes/PlanningGoalRoutes.mjs";
 
 const app = express();
 app.use(json());

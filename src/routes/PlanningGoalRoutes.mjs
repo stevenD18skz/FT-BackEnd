@@ -1,19 +1,14 @@
 // src/routes/financeRoutes.js
 import express from "express";
 import {
-  getTransactions,
-  addTransaction,
   getPlanningGoals,
   getByIdPlanningGoal,
   addPlanningGoal,
   updatePlanningGoal,
   deletePlanningGoal,
-} from "../controllers/financeController.mjs"; // Updated import path
+} from "../controllers/PlanningGoalController.mjs"; // Updated import path
 
 const router = express.Router();
-
-router.get("/transactions", getTransactions);
-router.post("/transactions", addTransaction);
 
 router.post("/planning-goals", addPlanningGoal);
 router.get("/planning-goals/:id", getByIdPlanningGoal);
