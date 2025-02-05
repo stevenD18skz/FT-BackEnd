@@ -1,4 +1,3 @@
-// src/controllers/financeController.js
 import { planningGoals } from "../models/mockData.mjs";
 import PlanningGoal from "../models/PlanningGoal.mjs";
 

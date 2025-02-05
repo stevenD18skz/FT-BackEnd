@@ -6,7 +6,7 @@ import {
 
 const router = express.Router();
 
-router.get("/subscriptions", getSubscriptions);
-router.post("/subscriptions", createSubscription);
+router.get("", getSubscriptions);
+router.post("", createSubscription);
 
 export default router;

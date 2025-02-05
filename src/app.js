@@ -1,18 +1,26 @@
-// src/app.js
-import express, { json } from "express"; // require -> commonJS
+import express, { json } from "express";
 import { corsMiddleware } from "./middlewares/cors.js";
 
-import router from "./routes/PlanningGoalRoutes.mjs";
+import planningGoalRoutes from "./routes/planningGoalRoutes.mjs";
+import subscriptionRoutes from "./routes/subscriptionRoutes.js";
+import transactionRoutes from "./routes/transactionRoutes.js";
+import walletRoutes from "./routes/walletRoutes.js";
 
 const app = express();
+const PORT = process.env.PORT ?? 3000;
+
+// Middlewares
 app.use(json());
 app.use(corsMiddleware());
 app.disable("x-powered-by");
 
-app.use("/api", router);
+// Rutas
+app.use("/api/planning-goals", planningGoalRoutes);
+app.use("/api/subscriptions", subscriptionRoutes);
+app.use("/api/transactions", transactionRoutes);
+app.use("/api/wallets", walletRoutes);
 
-const PORT = process.env.PORT ?? 3000;
-
+// Iniciar servidor
 app.listen(PORT, () => {
   console.log(`server listening on port http://localhost:${PORT}`);
 });

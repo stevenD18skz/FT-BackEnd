@@ -10,10 +10,10 @@ import {
 
 const router = express.Router();
 
-router.post("/planning-goals", addPlanningGoal);
-router.get("/planning-goals/:id", getByIdPlanningGoal);
-router.get("/planning-goals", getPlanningGoals);
-router.patch("/planning-goals/:id", updatePlanningGoal);
-router.delete("/planning-goals/:id", deletePlanningGoal);
+router.get("", getPlanningGoals);
+router.get("/:id", getByIdPlanningGoal);
+router.post("", addPlanningGoal);
+router.patch("/:id", updatePlanningGoal);
+router.delete("/:id", deletePlanningGoal);
 
 export default router;
