@@ -10,3 +10,21 @@ export const createSubscription = (req, res) => {
   subscriptionsData.push(newSubscription);
   res.status(201).json(newSubscription);
 };
+
+export const paySubscription = (req, res) => {
+  const { id } = req.params;
+  const subscription = subscriptionsData.find((sub) => sub.id === id);
+
+  if (!subscription) {
+    return res.status(404).json({ message: "Subscription not found" });
+  }
+
+  if (subscription.status === "paid") {
+    return res.status(400).json({ message: "Subscription is already paid" });
+  }
+
+  subscription.status = "paid";
+  return res
+    .status(200)
+    .json({ message: "Subscription paid successfully", subscription });
+};

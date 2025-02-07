@@ -5,6 +5,7 @@ import planningGoalRoutes from "./routes/planningGoalRoutes.mjs";
 import subscriptionRoutes from "./routes/subscriptionRoutes.js";
 import transactionRoutes from "./routes/transactionRoutes.js";
 import walletRoutes from "./routes/walletRoutes.js";
+import userRoutes from "./routes/userRoutes.js";
 
 const app = express();
 const PORT = process.env.PORT ?? 3000;
@@ -19,6 +20,7 @@ app.use("/api/planning-goals", planningGoalRoutes);
 app.use("/api/subscriptions", subscriptionRoutes);
 app.use("/api/transactions", transactionRoutes);
 app.use("/api/wallets", walletRoutes);
+app.use("/api/users", userRoutes);
 
 // Iniciar servidor
 app.listen(PORT, () => {

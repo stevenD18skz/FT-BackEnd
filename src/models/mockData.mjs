@@ -4,7 +4,7 @@ export const balanceData = {
   name: "Bariy Vollendito",
   photo: "https://randomuser.me/api/portraits/lego/3.jpg",
   balance: 3_000_000,
-  income: 10_456_000,
+  income: 80_456,
   expense: 32_000,
   saving: 80_000,
 };
@@ -38,7 +38,7 @@ export const transactionsData = [
     id: 1,
     icon: "Music2",
     name: "YouTube Premium",
-    date: "1 January 2025, 02:25 PM",
+    date: "1 February 2025, 02:25 PM",
     amount: 796_000, // 199 USD to COP
     type: "expense",
     cardId: 1,
@@ -47,7 +47,7 @@ export const transactionsData = [
     id: 2,
     icon: "Music2",
     name: "Spotify Premium",
-    date: "19 January 2025, 02:25 PM",
+    date: "19 February 2025, 02:25 PM",
     amount: 796_000, // 199 USD to COP
     type: "expense",
     cardId: 2,
@@ -56,7 +56,7 @@ export const transactionsData = [
     id: 3,
     icon: "ArrowRigthLeft",
     name: "Transferwise - Received",
-    date: "19 January 2025, 10:15 AM",
+    date: "19 February 2025, 10:15 AM",
     amount: 4800_000, // 1200 USD to COP
     type: "income",
     cardId: 3,
@@ -65,7 +65,7 @@ export const transactionsData = [
     id: 4,
     icon: "ShoppingBag",
     name: "H&M Payment",
-    date: "15 January 2025, 06:30 PM",
+    date: "15 February 2025, 06:30 PM",
     amount: 8800_000, // 2200 USD to COP
     type: "expense",
     cardId: 1,
@@ -74,7 +74,7 @@ export const transactionsData = [
     id: 5,
     icon: "Apple",
     name: "iPhone 12 Pro Max",
-    date: "24 January 2025, 01:30 PM",
+    date: "24 February 2025, 01:30 PM",
     amount: 8800_000, // 2200 USD to COP
     type: "expense",
     cardId: 2,
@@ -83,7 +83,7 @@ export const transactionsData = [
     id: 6,
     icon: "Music2",
     name: "Spotify Family",
-    date: "25 January 2025, 02:25 PM",
+    date: "25 February 2025, 02:25 PM",
     amount: 996_000, // 249 USD to COP (variedad)
     type: "expense",
     cardId: 3,
@@ -92,7 +92,7 @@ export const transactionsData = [
     id: 7,
     icon: "ArrowRigthLeft",
     name: "Transferwise - Sent",
-    date: "26 January 2025, 10:15 AM",
+    date: "26 February 2025, 10:15 AM",
     amount: 4800_000, // 1200 USD to COP
     type: "expense",
     cardId: 1,
@@ -101,7 +101,7 @@ export const transactionsData = [
     id: 8,
     icon: "ShoppingBag",
     name: "Amazon Purchase",
-    date: "28 January 2025, 06:30 PM",
+    date: "28 February 2025, 06:30 PM",
     amount: 2000_000, // 500 USD to COP
     type: "expense",
     cardId: 2,
@@ -110,7 +110,7 @@ export const transactionsData = [
     id: 9,
     icon: "Apple",
     name: "MacBook Pro",
-    date: "28 January 2025, 01:30 PM",
+    date: "28 February 2025, 01:30 PM",
     amount: 10000_000, // 2500 USD to COP
     type: "expense",
     cardId: 3,
@@ -119,7 +119,7 @@ export const transactionsData = [
     id: 10,
     icon: "Music2",
     name: "Spotify Annual",
-    date: "1 January 2025, 02:25 PM",
+    date: "1 February 2025, 02:25 PM",
     amount: 3980_000, // 995 USD to COP (variedad)
     type: "expense",
     cardId: 1,
@@ -128,7 +128,7 @@ export const transactionsData = [
     id: 11,
     icon: "Coffee",
     name: "Starbucks",
-    date: "2 January 2025, 09:15 AM",
+    date: "2 February 2025, 09:15 AM",
     amount: 20_000, // 5 USD to COP
     type: "expense",
     cardId: 2,
@@ -137,7 +137,7 @@ export const transactionsData = [
     id: 12,
     icon: "ShoppingBag",
     name: "Zara Payment",
-    date: "3 January 2025, 03:45 PM",
+    date: "3 February 2025, 03:45 PM",
     amount: 350_000, // 87.5 USD to COP
     type: "expense",
     cardId: 3,
@@ -146,7 +146,7 @@ export const transactionsData = [
     id: 13,
     icon: "ArrowRigthLeft",
     name: "PayPal - Received",
-    date: "4 January 2025, 11:20 AM",
+    date: "4 February 2025, 11:20 AM",
     amount: 2400_000, // 600 USD to COP
     type: "income",
     cardId: 1,
@@ -155,7 +155,7 @@ export const transactionsData = [
     id: 14,
     icon: "Gamepad",
     name: "Steam Purchase",
-    date: "5 January 2025, 05:35 PM",
+    date: "5 February 2025, 05:35 PM",
     amount: 160_000, // 40 USD to COP
     type: "expense",
     cardId: 2,
@@ -164,7 +164,7 @@ export const transactionsData = [
     id: 15,
     icon: "Music2",
     name: "Amazon Music",
-    date: "6 January 2025, 02:25 PM",
+    date: "6 February 2025, 02:25 PM",
     amount: 996_000, // 249 USD to COP (variedad)
     type: "expense",
     cardId: 3,
@@ -173,7 +173,7 @@ export const transactionsData = [
     id: 16,
     icon: "ArrowRigthLeft",
     name: "Venmo - Sent",
-    date: "7 January 2025, 10:15 AM",
+    date: "7 February 2025, 10:15 AM",
     amount: 1200_000, // 300 USD to COP
     type: "expense",
     cardId: 1,
@@ -182,7 +182,7 @@ export const transactionsData = [
     id: 17,
     icon: "Croissant",
     name: "Dinner at Croissant",
-    date: "8 January 2025, 08:00 PM",
+    date: "8 February 2025, 08:00 PM",
     amount: 100_000, // 25 USD to COP
     type: "expense",
     cardId: 2,
@@ -191,7 +191,7 @@ export const transactionsData = [
     id: 18,
     icon: "ArrowRigthLeft",
     name: "Bank Transfer - Received",
-    date: "9 January 2025, 09:00 AM",
+    date: "9 February 2025, 09:00 AM",
     amount: 4000_000, // 1000 USD to COP
     type: "income",
     cardId: 3,
@@ -200,7 +200,7 @@ export const transactionsData = [
     id: 19,
     icon: "ShoppingBag",
     name: "Nike Purchase",
-    date: "10 January 2025, 04:30 PM",
+    date: "10 February 2025, 04:30 PM",
     amount: 800_000, // 200 USD to COP
     type: "expense",
     cardId: 1,
@@ -209,7 +209,7 @@ export const transactionsData = [
     id: 20,
     icon: "Projector",
     name: "Cinema Tickets",
-    date: "11 January 2025, 07:45 PM",
+    date: "11 February 2025, 07:45 PM",
     amount: 50_000, // 12.5 USD to COP
     type: "expense",
     cardId: 2,
@@ -218,7 +218,7 @@ export const transactionsData = [
     id: 21,
     icon: "ArrowRigthLeft",
     name: "Freelance Payment - Received",
-    date: "12 January 2025, 11:30 AM",
+    date: "12 February 2025, 11:30 AM",
     amount: 16000_000, // 4000 USD to COP
     type: "income",
     cardId: 3,
@@ -227,7 +227,7 @@ export const transactionsData = [
     id: 22,
     icon: "ShoppingBag",
     name: "Walmart Purchase",
-    date: "13 January 2025, 03:00 PM",
+    date: "13 February 2025, 03:00 PM",
     amount: 400_000, // 100 USD to COP
     type: "expense",
     cardId: 1,
@@ -236,7 +236,7 @@ export const transactionsData = [
     id: 23,
     icon: "ShoppingBag",
     name: "Netflix Subscription",
-    date: "14 January 2025, 02:25 PM",
+    date: "14 February 2025, 02:25 PM",
     amount: 64_000, // 16 USD to COP
     type: "expense",
     cardId: 2,
@@ -246,7 +246,7 @@ export const transactionsData = [
     id: 24,
     icon: "ArrowRigthLeft",
     name: "Bank Transfer - Sent",
-    date: "15 January 2025, 09:00 AM",
+    date: "15 February 2025, 09:00 AM",
     amount: 2000_000, // 500 USD to COP
     type: "expense",
     cardId: 2,
@@ -255,7 +255,7 @@ export const transactionsData = [
     id: 25,
     icon: "Music2",
     name: "Apple Music",
-    date: "16 January 2025, 02:25 PM",
+    date: "16 February 2025, 02:25 PM",
     amount: 996_000, // 249 USD to COP (variedad)
     type: "expense",
     cardId: 2,
@@ -264,7 +264,7 @@ export const transactionsData = [
     id: 26,
     icon: "ArrowRigthLeft",
     name: "Stripe Payment - Received",
-    date: "17 January 2025, 09:30 AM",
+    date: "17 February 2025, 09:30 AM",
     amount: 9600_000, // 2400 USD to COP
     type: "expense",
     cardId: 2,
@@ -281,7 +281,7 @@ export const subscriptionsData = [
     paymentFrequency: "monthly",
     nextPaymentDate: "2025-02-01",
     startDate: "2023-01-01",
-    status: "active",
+    status: "pay",
     icon: "Music2",
     notificationSettings: {
       type: "email",
@@ -298,7 +298,7 @@ export const subscriptionsData = [
     paymentFrequency: "monthly",
     nextPaymentDate: "2025-02-05",
     startDate: "2023-05-01",
-    status: "inactive",
+    status: "paid",
     icon: "Projector",
     notificationSettings: {
       type: "push",
@@ -315,7 +315,7 @@ export const subscriptionsData = [
     paymentFrequency: "yearly",
     nextPaymentDate: "2025-02-10",
     startDate: "2023-03-01",
-    status: "inactive",
+    status: "paid",
     icon: "Projector",
     notificationSettings: {
       type: "email",
@@ -332,7 +332,7 @@ export const subscriptionsData = [
     paymentFrequency: "monthly",
     nextPaymentDate: "2025-02-15",
     startDate: "2023-06-15",
-    status: "active",
+    status: "pay",
     icon: "ShoppingBag",
     notificationSettings: {
       type: "sms",
@@ -349,7 +349,7 @@ export const subscriptionsData = [
     paymentFrequency: "monthly",
     nextPaymentDate: "2025-02-20",
     startDate: "2023-04-01",
-    status: "active",
+    status: "pay",
     icon: "Projector",
     notificationSettings: {
       type: "email",
