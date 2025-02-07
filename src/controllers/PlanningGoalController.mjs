@@ -100,3 +100,19 @@ export const deletePlanningGoal = (req, res) => {
     res.json({ message: "Goal deleted" });
   }
 };
+
+export const addAmountToGoal = (req, res) => {
+  const { id } = req.params;
+  const { amount } = req.body;
+
+  const goal = planningGoals.find((goal) => goal.id === parseInt(id));
+
+  if (!goal) {
+    return res.status(404).json({ message: "Goal not found" });
+  }
+
+  goal.current += amount;
+  goal.updatedAt = new Date().toISOString();
+
+  res.status(200).json(goal);
+};

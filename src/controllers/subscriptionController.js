@@ -1,4 +1,5 @@
-import { subscriptionsData } from "../models/mockData.mjs";
+import { subscriptionsData, cardData } from "../models/mockData.mjs";
+
 import Subscription from "../models/Subscription.js";
 
 export const getSubscriptions = (req, res) => {
@@ -13,6 +14,7 @@ export const createSubscription = (req, res) => {
 
 export const paySubscription = (req, res) => {
   const { id } = req.params;
+
   const subscription = subscriptionsData.find((sub) => sub.id === id);
 
   if (!subscription) {
@@ -22,6 +24,10 @@ export const paySubscription = (req, res) => {
   if (subscription.status === "paid") {
     return res.status(400).json({ message: "Subscription is already paid" });
   }
+
+  const card = subscriptionsData.find((sub) => sub.id === subscription.cardId);
+
+  card.balance -= subscription.cost;
 
   subscription.status = "paid";
   return res
