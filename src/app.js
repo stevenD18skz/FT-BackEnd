@@ -20,7 +20,7 @@ app.use("/api/planning-goals", planningGoalRoutes);
 app.use("/api/subscriptions", subscriptionRoutes);
 app.use("/api/transactions", transactionRoutes);
 app.use("/api/wallets", walletRoutes);
-app.use("/api/users", userRoutes);
+app.use("/api/user", userRoutes);
 
 // Iniciar servidor
 app.listen(PORT, () => {

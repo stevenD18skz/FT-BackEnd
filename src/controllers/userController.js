@@ -1,5 +1,5 @@
 import { balanceData } from "../models/mockData.mjs";
 
-export const getUsers = (req, res) => {
+export const getUser = (req, res) => {
   res.json(balanceData);
 };
